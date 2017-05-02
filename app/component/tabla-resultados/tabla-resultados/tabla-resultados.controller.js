@@ -209,7 +209,7 @@ function tablaResultadosController($stateParams) {
             "juecesDisponibles": [{
                 "nombreJuez": ""
             }],
-            "nombreTorneo": "Torneo el mejor",
+            "nombreTorneo": "Torneo AnimalX",
             "participantesDisponibles": [{
                 "asignado": "",
                 "nombre": ""
