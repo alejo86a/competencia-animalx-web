@@ -1,0 +1,32 @@
+{
+  "webs" : [
+
+    {
+        "id": "1",
+        "name": "home page",
+        "link": "https://www.bing.com",
+        "description": "this is my home page",
+        "date": "Thu Mar 09 2017 09:33:50",
+        "type": "LINK",
+        "use": "user1"
+    },
+    {
+        "id": "2",
+        "name": "my anime page",
+        "link": "https://www.mangadoor.com",
+        "description": "One piece Rocks !!!",
+        "date": "Thu Mar 09 2017 09:34:21",
+        "type": "LINK",
+        "use": "user1"
+    },
+    {
+        "id": "3",
+        "name": "MedellinJS page",
+        "link": "https://www.medellinjs.org",
+        "description": "comunidad de javascript en la ciudad de medellin",
+        "date": "Thu Mar 09 2017 09:34:21",
+        "type": "LINK",
+        "use": "user1"
+    }
+]
+}

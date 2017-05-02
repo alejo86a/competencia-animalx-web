@@ -1,5 +1,6 @@
 var tablaResultados = {
   bindings: {
+    variable:'<'
   },
   templateUrl:'app/component/tabla-resultados/tabla-resultados/tabla-resultados.html',
   controller:'tablaResultadosController'
@@ -11,13 +12,13 @@ angular
     .config(function($stateProvider){
       $stateProvider
         .state('tablaResultados',{
-          url:'/',
+          url:'/torneo/:nombretorneo',
           component:'tablaResultados',
           resolve:{
 
           },
           params:{
-            
+
           }
         })
     })
