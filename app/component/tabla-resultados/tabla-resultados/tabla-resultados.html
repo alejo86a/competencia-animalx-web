@@ -1,2 +1,22 @@
-tabla resultados
-{{$ctrl.saludo}}
+<table class="table table-striped table-condensed" fixed-header>
+  <thead>
+    <tr>
+      <th colspan="12"  style="text-align:center">{{ $ctrl.torneo.nombreTorneo }}</th>
+    </tr>
+   <tr>
+    <th class="col-xs-1"  style="text-align: left">#</th>
+    <th  style="text-align: left">Nombre</th>
+    <th class="col-xs-1" ng-repeat="bases in $ctrl.torneo.bases">base#{{ bases.numeroBase }}</th>
+    <th>Total</th>
+   </tr>
+  </thead>
+  <tbody>
+
+   <tr ng-repeat="datos in $ctrl.arreglo">
+    <td  style="text-align: left">{{ $index+1 }}</td>
+    <td style="text-align: left">{{ datos.participante }}</td>
+    <td ng-repeat="base in datos.bases"> {{ base.puntos }}</td>
+    <td >{{ $ctrl.total($index) }}</td>
+   </tr>
+  </tbody>
+ </table>
