@@ -1,13 +1,27 @@
+/*Centra los textos introducidos en cualquier th y td*/
 td,th{
   text-align: center;
-  color: white;
 }
 .table-striped>tbody>tr:nth-of-type(odd){
-  background-color: #221d1e;
+  color:black;
 }
+
+/*Cuando hay un hover camia el color de la letra y del fondo*/
 .table-hover>tbody>tr:hover{
-  background-color:#f0f5f5;
 }
+/*Cambia el tamaño de el nombre de las columnas*/
+th{
+  font-size: 1.1em;
+  font-family: 'Rock Salt', cursive;
+}
+/*introduce una imagen de fondo al body y le cambia el color de la letra*/
 body{
-  background-color:#221d1e;
+  background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("http://userscontent2.emaze.com/images/645e0475-0ffc-48dd-9990-6526d89864fe/7027a18c-5b2d-45fe-a481-0455bea607b4.png") no-repeat center center fixed;
+   background-size:100% 100%;
+   color:white;
+}
+/*Cambia el tamaño de el nombre del torneo*/
+.torneo{
+  font-family: 'Permanent Marker', cursive;
+  font-size:2em;
 }
